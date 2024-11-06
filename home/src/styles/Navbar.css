@@ -1,0 +1,111 @@
+.offer-bar {
+  background-color: rgba(0, 0, 0, 0.742); /* Dark background */
+  padding: 10px 0;
+  height: 50px; /* Height of the offer bar */
+  width: 100%; /* Full width */
+  position: relative;
+  overflow: hidden; /* Prevent overflow for scrolling text */
+  display: flex; /* Flexbox for alignment */
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center; /* Center vertically */
+}
+
+.scrolling-offer {
+  color: white; /* White text */
+  font-weight: bold;
+  white-space: nowrap; /* Prevent text from wrapping */
+  position: absolute; /* Absolute positioning for scrolling effect */
+  animation: scroll 10s linear infinite; /* Continuous scroll */
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(100%); /* Start from right end */
+      opacity: 1; /* Fully visible */
+  }
+  99% {
+      transform: translateX(-100%); /* Move left */
+      opacity: 1; /* Stay visible */
+  }
+  100% {
+      transform: translateX(-100%); /* Keep it off-screen */
+      opacity: 0; /* Fade out */
+  }
+}
+
+.shadow-navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.button-link {
+  color: black; /* Black text */
+  padding: 8px 12px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.green-icon {
+  color: #9acd32; /* Greenish-yellow for icons */
+}
+
+.button-link:hover {
+  background-color: transparent; /* No background on hover */
+}
+
+.logo {
+  height: 100px; /* Logo height */
+  margin: 0;
+  padding: 0;
+  border-radius: 50%; /* Round logo */
+}
+
+.search-input {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  color: #495057;
+}
+
+.search-input:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Dropdown styles */
+.dropdown-toggle {
+  border: none; /* Remove border */
+}
+
+.dropdown-item {
+  color: black; /* Default text color */
+}
+
+.dropdown-item:hover {
+  background-color: #28a745 !important; /* Green background on hover */
+  color: white; /* Change text color on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .search-input {
+      width: 70%; /* Responsive search input */
+  }
+
+  .scrolling-offer {
+      font-size: 14px; /* Smaller font size on mobile */
+      animation-duration: 10s; /* Maintain scroll speed */
+  }
+  
+  .navbar-nav {
+      text-align: center; /* Center text for mobile */
+      width: 100%; /* Full width for nav */
+  }
+  
+  .navbar-collapse {
+      justify-content: center; /* Center align the navbar items */
+  }
+}
+.button-link{
+  text-decoration: none !important;
+}
+.text-black{
+  text-decoration: none !important;
+}

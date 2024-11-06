@@ -1,0 +1,19 @@
+/* Wishlist.css */
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  

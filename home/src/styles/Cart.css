@@ -1,0 +1,23 @@
+.cart-container {
+    width: 40px; /* Reduced width */
+    height: 40px; /* Reduced height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.cart-item-quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 5px; /* Reduced margin */
+}
+
+.cart-total {
+    margin-top: 15px; /* Reduced margin */
+    font-size: 1.2em; /* Slightly smaller font size */
+    font-weight: bold;
+}
+
+.continue-shopping {
+    margin-top: 15px; /* Reduced margin */
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    margin-top: 10px;
+}
+
+.add-to-cart-button {
+    flex: 1; /* Allow the button to take available space */
+    margin-right: 10px; /* Space between the buttons */
+    font-size: 0.9em; /* Decrease the font size */
+    padding: 8px; /* Decrease padding */
+}
+
+.wishlist-button {
+    width: 40px; /* Fixed size for the wishlist button */
+    height: 40px; /* Fixed size for the wishlist button */
+    border-radius: 50%; /* Circular button */
+    display: flex;
+    align-items: center; /* Center the icon */
+    justify-content: center; /* Center the icon */
+    background-color: white;
+    color: #28a745; /* Green color */
+    border: 1px solid #28a745; /* Green border */
+}
+
+.wishlist-button:hover {
+    background-color: #e8f5e9; /* Light green on hover */
+}
+
+.success-message {
+    color: #28a745; 
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+/* Other styles as before */

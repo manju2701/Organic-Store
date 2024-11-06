@@ -1,0 +1,16 @@
+/* src/styles/Login.css */
+.btn-green {
+    background-color: #28a745 !important; /* Green background */
+    border-color: #28a745 !important; /* Green border */
+    color: white; /* White text color */
+}
+
+.btn-green:hover {
+    background-color: #218838 !important; /* Darker green on hover */
+    border-color: #1e7e34 !important; /* Darker green border on hover */
+}
+
+.btn-small {
+    font-size: 0.875rem; /* Smaller font size */
+    padding: 0.375rem 0.75rem; /* Adjust padding for smaller size */
+}

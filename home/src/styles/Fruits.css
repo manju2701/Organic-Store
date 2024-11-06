@@ -1,0 +1,78 @@
+/* Overall title styling */
+.title {
+    font-size: 2.5rem; /* Larger title size */
+    color: #343a40; /* Dark text for visibility */
+    margin-bottom: 30px; /* Increased space below title */
+    font-weight: bold; /* Bold title */
+    text-align: center; /* Center the title */
+}
+
+/* Card styling for fruit items */
+.fruit-item {
+    margin: 15px; /* Space around each card */
+    border: none; /* Remove default border */
+    border-radius: 12px; /* Rounded corners */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth animations */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Ensures rounded corners for images */
+}
+
+.fruit-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+/* Image styling */
+.fruit-image {
+    border-top-left-radius: 12px; /* Match card's border radius */
+    border-top-right-radius: 12px; /* Match card's border radius */
+    height: 200px; /* Fixed height for uniformity */
+    width: 100%; /* Responsive width */
+    object-fit: cover; /* Ensure images cover the area */
+}
+
+/* Title styling */
+.fruit-title {
+    font-size: 1.5rem; /* Fruit title size */
+    color: #28a745; /* Green color for fruits */
+    margin: 10px 0; /* Space above and below title */
+    font-weight: bold; /* Bold title */
+}
+
+/* Description styling */
+.fruit-description {
+    font-size: 1rem; /* Standard text size */
+    color: #6c757d; /* Secondary text color */
+    margin-bottom: 10px; /* Space below description */
+}
+
+/* Price and rating styling */
+.fruit-price, .fruit-rating {
+    font-size: 1.1rem; /* Standard text size */
+    color: #495057; /* Secondary text color */
+}
+
+/* Styling for ratings */
+.fruit-rating {
+    font-size: 1.2rem; /* Larger font size for rating */
+    color:blak; /* Star color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .fruit-item {
+        margin: 10px; /* Reduce margin on smaller screens */
+    }
+    .fruit-title {
+        font-size: 1.4rem; /* Slightly smaller title on mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 2rem; /* Smaller title on very small screens */
+    }
+    .fruit-title {
+        font-size: 1.2rem; /* Smaller title for fruit items */
+    }
+}

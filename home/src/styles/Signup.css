@@ -1,0 +1,23 @@
+.signup-container {
+  background-color: #f8f9fa; /* Light background */
+}
+
+.signup-form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Fixed width */
+}
+
+.signup-form h2 {
+  margin-bottom: 1.5rem;
+}
+
+.signup-form .form-control {
+  margin-bottom: 1rem;
+}
+
+.signup-form button {
+  width: 100%; /* Full width button */
+}
